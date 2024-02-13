@@ -40,6 +40,7 @@ See ```sonar-project.properties```
 ### Get Pycharm to show the correct coverage
 Ironically in pycharm test configuration add `--no-cov` to `Additional Arguments` this turn off pytest-cov coverage and uses Pycharm's own pytest.
 
+### ----------------------------------------------------------------------------
 
 ### Parent Dependency Vulnerability Scanning by reading Trivy's report (JSON).
 This project reads a report produced by Trivy, the security scanner.
